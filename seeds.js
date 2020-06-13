@@ -26,7 +26,8 @@ function seedDB(){
         if(err){
             console.log(err);
         }
-        else{
+        else
+        {
             console.log("removed campgrounds");
 
             //add a few Campgrounds
